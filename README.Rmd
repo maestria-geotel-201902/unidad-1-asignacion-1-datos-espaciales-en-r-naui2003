@@ -121,7 +121,7 @@ as.data.frame(prov[,c('TOPONIMIA','areaenm2')])
     * Organiza descendentemente mediante la función `desc`.
 
 ```{r}
-`Simple feature collection with 32 features and 5 fields`
+`prov`
 `prov` %>% st_drop_geometry()
 `prov` %>% st_drop_geometry() %>% dplyr::select(`TOPONIMIA`, `areaenm2`)
 `prov` %>% st_drop_geometry() %>% dplyr::select(`TOPONIMIA`,`areaenm2` ) %>% arrange(`areaenm2`)
